@@ -17,7 +17,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.launch
 
-@OptIn(ExperimentalMaterialApi::class)
+
+@ExperimentalMaterialApi
 @Composable
 fun BottomSheetModal(
     modifier: Modifier = Modifier
@@ -75,6 +76,7 @@ fun BottomSheetModal(
     }
 }
 
+@ExperimentalMaterialApi
 @Preview(showBackground = true)
 @Composable
 fun BottomSheetModalPreview() {

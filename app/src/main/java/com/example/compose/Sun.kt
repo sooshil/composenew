@@ -66,7 +66,7 @@ fun Sun(
 //                strokeWidth = 4.dp.toPx()
 //            )
 
-            (1..36).forEachIndexed { index, value ->
+            (1..36).forEachIndexed { index, _ ->
                 if(index % 2 != 0) {
                     drawLine(
                         color = Color.Red,

@@ -27,6 +27,7 @@ import androidx.constraintlayout.compose.ExperimentalMotionApi
 import androidx.constraintlayout.compose.MotionLayout
 import androidx.constraintlayout.compose.MotionScene
 
+@ExperimentalMotionApi
 @Composable
 fun AnimMotionLayout(
     modifier: Modifier = Modifier
@@ -50,7 +51,8 @@ fun AnimMotionLayout(
     }
 }
 
-@OptIn(ExperimentalMotionApi::class)
+
+@ExperimentalMotionApi
 @Composable
 fun ProfileHeader(
     modifier: Modifier = Modifier,
